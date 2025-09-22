@@ -1,0 +1,41 @@
+body {
+    background-color:#FFFFCC;
+    font-family:verdana;
+    color:black;
+}
+
+h1 , h2 , h3 {
+    border: 6px solid rgb(148, 245, 140);
+    margin: 30px;
+    width: 500px;
+    color:white;
+    background: rgb(83, 148, 240);
+    text-align:center;
+    font-family: consolas;
+    
+}
+
+#list{
+    list-style:none;
+    border: 1px dashed;
+    width: 300px; 
+}
+
+a {
+    font-weight: bold;
+    color: salmon;
+    text-decoration:none;
+}
+
+.date {
+    font-weight:bold;
+}
+
+p {
+    text-align:left;
+    font-size:16px;
+}
+
+footer {
+    font-size:12px;
+}
