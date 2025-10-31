@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:verdana;
+            font-size: 20px;
+            width:auto;
+            display:flex;
+            flex-direction: column;
+        }
+        
+        h1{
+            font-style:italic;
+            text-align:right;
+            font-size: 50px;
+        }
+        
+        h2{
+            font-size:45px;
+            border: 5px solid rgb(46, 155, 90)}
+        
+        #siteinfo{
+            margin:25px;
+        }
+        
+        dt{
+            font-size:30px; 
+            font-weight:bold;
+            background:rgb(46, 155, 90); 
+            color: white; padding:5px;
+        }
+        
+        dd{
+            font-size:24px;
+            margin-top: 25px;
+            margin-bottom: 100px;
+            margin-right: 5px;}
+
+        dd, p{line-height:1.5;}
+
+        .paragraph{
+            margin:25px;
+            font-size: 24px;
+        }
+
+        img{
+            width:50%;
+            height:auto;
+            float:right;
+            border:1px solid black;
+            margin: 10px;
+        }
+
+        footer{
+            text-align:center;
+        }
+        
+        a:link{
+            color:black;
+        }
+
+        a:hover{
+            color:rgb(0, 0, 238);
+        }
+        
+        a:active{
+            color: rgb(46, 155, 90);
+        }
+        
+    </style>
+</head>
+<body>
+    <header><h1>UI/UX Evaluation</h1></header>
+    <main>
+        <div id="siteinfo">
+            <h2>Website Information</h2>
+            <dl>
+                <dt>Website Name</dt>
+                <dd>The Baltimore Convention Center</dd>
+                
+                <dt>URL</dt>
+                <dd><a href="https://www.bccenter.org/">https://www.bccenter.org/</a></dd>
+                
+                <dt>Target Audience</dt>
+                <dd>The site is designed for event hosts and attendees, job seekers,
+                    and those generally seeking information about the Baltimore Convention
+                    Center. 
+                </dd>
+                
+                <dt>Accessibility Checker</dt>
+                <dd>This site was given a score of 35.</dd>
+                
+                <dt>Website Organization Type</dt>
+                <dd>Hierarchical Organization</dd>
+                
+                <dt>Highlighted C.R.A.P. Principle</dt>
+                <dd>There is a lot of repetition to be found here. There is a color theme maintained
+                    throughout the entire site. The headers share the same fonts as
+                    the main text but uses a blue color to differentiate itself. I especially 
+                    like the choice for the link hover color the site uses. It's a beautiful 
+                    green that contrast with the links' simple white text.
+                </dd>
+            </dl>
+        </div>
+           
+        <div class="paragraph">
+            <h2>Site Exploration</h2>
+            <img src="bcc-site.png" alt="Screen capture of the Baltimore Convention Center website's homepage.">
+            <p> Navigating the BCC website was easy. The homepage is laid out in such a way
+                that users can quickly find what they're looking for. The site lends itself well
+                to its place in the convention industry by making it easy for attendees
+                to find necessary directions, parking, transportation, and calendar information within
+                less than five clicks.
+            </p>
+            <p> The choice of blue and white matches the organization's color motif but it
+                can at times be difficult on the eyes. I believe this is because of the chosen font size 
+                and thickness. The audit score breakdown showed "blind" the most in its "disabilities
+                affected" column, which becomes apparent when trying to read the site's text. My
+                suggestion would be to choose a thicker font and increase the font size. It's great
+                that there is an accessibiity menu in the top-right corner with several options to make
+                the pages easier to read, but things should be easier to read by default.
+            </p>
+            <p> Despite some visual issues, this website is well built. It loads quickly and
+                allows users to access necessary information with minimal clicks. While it's easy to find that
+                information, seeing it can be difficult due to the text, so I suggested increasing 
+                the font size and it's thickness.
+
+            </p>
+
+        </div>
+    </main>
+<footer>🖳 October 2025</footer>
+</body>
+
+</html>
