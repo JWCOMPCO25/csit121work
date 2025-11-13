@@ -1,0 +1,118 @@
+body {
+    background-color: lightskyblue;
+    font-size: 18px;
+    width: auto;
+}
+
+nav{
+    background-color:white;
+    width: 50%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+nav a:link{
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: tahoma;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 4px 5px black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid black;
+    width: 10%;
+    font-family: tahoma;
+    background-color: white;
+}
+
+th {
+    font-size: 20px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+td{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width:100%;
+}
+
+
+#header-row {
+    background-color: darkgray;
+    color:white;
+}
+
+#header-row th:nth-child(1){
+    background-color: black;
+
+}
+
+#s-tier th{
+    background-color: red;
+}
+
+#a-tier th{
+    background-color: darkorange;
+}
+
+#b-tier th{
+    background-color: yellow;
+}
+
+#c-tier th{
+    background-color: greenyellow;
+}
+
+#d-tier th{
+    background-color: blue;
+}
+
+article{
+    background-color: white;
+    margin-top: 75px;
+    padding: 20px;
+    width: 65%;
+}
+
+/* image source section */
+#img-sources{
+    background-color: beige;
+    margin-top: 10px;;
+    padding: 20px;
+    width:65%;
+}
+
+#img-sources p{
+    font-size: 18px;
+}
+
+#img-sources h2{
+    font-family: courier;
+}
+
+a:link{
+    text-decoration: underline;
+}
+a:hover{
+    color: red;
+}
+
+a:visited{
+    text-decoration: none;
+}
